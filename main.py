@@ -1,6 +1,7 @@
 from stats import word_counter
 from stats import char_counter
 from stats import making_list_dict
+import sys
 
 def get_book_path():
     return "/home/steelthemain/workspace/bookbot/books/frankenstein.txt"
@@ -44,3 +45,4 @@ print(f"Found {word_count} total words")
 print("--------- Character Count -------")
 formating_list_dict(final_dict)
 print("============= END ===============")
+print(sys.argv)
